@@ -23,7 +23,7 @@ Before running this application, ensure you have the following installed:
     ```bash
    javac -source 1.8 -target 1.8 -cp "TOMCAT-HOME/lib/servlet-api.jar;lib/javax.servlet-api-3.1.0.jar" MyServlet.java
     ```
-    Make sure the TOMCAT_HOME environment variable is set to the Tomcat installation directory.
+    Make sure the TOMCAT-HOME environment variable is set to the Tomcat installation directory.
    
 3. Copy the compiled MyServlet.class to the Tomcat webapps/ROOT/WEB-INF/classes directory.
 
